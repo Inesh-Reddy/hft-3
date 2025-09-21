@@ -125,11 +125,7 @@ pnpm exec turbo link
 
 ## Protobuf
 ```
-protoc \           
-  --go_out=. \
-  --go-grpc_out=. \
-  --proto_path=../../../packages/proto \
-  ticker.proto
+protoc --go_out=. --go-grpc_out=. --proto_path=../../../packages/proto ticker.proto
 ```
 
 ## Useful Links
