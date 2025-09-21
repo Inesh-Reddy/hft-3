@@ -5,7 +5,7 @@ import (
 	"log"
 	"net"
 
-	pb "github.com/Inesh-Reddy/hft-3/packages/proto"
+	pb "github.com/Inesh-Reddy/hft-3/apps/go-services/ticker-service/proto/ticker"
 	"github.com/gorilla/websocket"
 	"google.golang.org/grpc"
 )

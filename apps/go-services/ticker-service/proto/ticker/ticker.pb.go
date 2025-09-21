@@ -155,7 +155,7 @@ const file_ticker_proto_rawDesc = "" +
 	"\x06volume\x18\x04 \x01(\tR\x06volume\x12\x1c\n" +
 	"\teventTime\x18\x05 \x01(\x03R\teventTime2N\n" +
 	"\rTickerService\x12=\n" +
-	"\fStreamTicker\x12\x15.ticker.TickerRequest\x1a\x14.ticker.TickerUpdate0\x01B4Z2github.com/Inesh-Reddy/hft-3/packages/golib/tickerb\x06proto3"
+	"\fStreamTicker\x12\x15.ticker.TickerRequest\x1a\x14.ticker.TickerUpdate0\x01B\x0eZ\fproto/tickerb\x06proto3"
 
 var (
 	file_ticker_proto_rawDescOnce sync.Once
