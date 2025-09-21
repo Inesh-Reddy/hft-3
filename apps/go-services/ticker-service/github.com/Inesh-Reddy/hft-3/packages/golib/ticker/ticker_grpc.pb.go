@@ -4,7 +4,7 @@
 // - protoc             v6.32.1
 // source: ticker.proto
 
-package golib
+package ticker
 
 import (
 	context "context"

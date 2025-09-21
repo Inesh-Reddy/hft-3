@@ -2,7 +2,7 @@ syntax = "proto3";
 
 package ticker;
 
-option go_package = "github.com/Inesh-Reddy/hft-3/packages/golib";
+option go_package = "github.com/Inesh-Reddy/hft-3/packages/golib/ticker";
 service TickerService {
     rpc StreamTicker (TickerRequest) returns (stream TickerUpdate);
 
